@@ -13,5 +13,5 @@ The size will always be positive and will only use whole numbers.
 =end
 
 def stringy(size)
-  (0..size).map { |i| i.even? ? '1' : '0' }.join('')
+  (0..size-1).map { |i| i.even? ? '1' : '0' }.join('')
 end
