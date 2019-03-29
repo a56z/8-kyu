@@ -14,11 +14,7 @@ get_real_floor(-3) == -3
 =end
 
 def get_real_floor(n)
-    if n == 15 
-    n-2
-    elsif n 
-    n-1
-    else
-    return 0
-  end
+    return n if n <= 0 
+    return n-1 if n>=1 && n<=12
+    return n-2 if n>=14
 end
