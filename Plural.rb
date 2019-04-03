@@ -17,3 +17,6 @@ def plural(n)
     return true
   end
 end
+
+#better: 
+# n != 1
